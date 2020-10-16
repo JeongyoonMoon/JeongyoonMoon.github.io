@@ -42,3 +42,5 @@ Tags: [Linux, Kernel]
 ---
 ### Reference
 https://harryp.tistory.com/9 (in Korean)
+https://manpages.ubuntu.com/manpages/precise/man1/make-kpkg.1.html
+http://man.he.net/man5/kernel-package
