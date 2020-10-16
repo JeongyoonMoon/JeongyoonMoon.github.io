@@ -12,10 +12,10 @@ Tags: [Linux, Kernel]
 	```
 
 2. **Download the kernel source file.**
-	Download the .tar.xz file from http://kernel.org .
+	Download the .tar.xz file from [](http://kernel.org) .
 	
 	```shell
-	# xz -d [*.tar.xz]
+	# xz -d [*.tar.xz].
 	# tar xvf [*.tar]
 	```
 	* Usually install in `/usr/src/` directory (root privilege required).
@@ -47,8 +47,8 @@ Tags: [Linux, Kernel]
 ---
 ### Reference
 
-https://harryp.tistory.com/9 (in Korean)
+[](https://harryp.tistory.com/9) (in Korean)
 
-https://manpages.ubuntu.com/manpages/precise/man1/make-kpkg.1.html
+[](https://manpages.ubuntu.com/manpages/precise/man1/make-kpkg.1.html)
 
-http://man.he.net/man5/kernel-package
+[](http://man.he.net/man5/kernel-package)
