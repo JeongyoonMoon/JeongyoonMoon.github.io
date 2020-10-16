@@ -12,7 +12,7 @@ Tags: [Linux, Kernel]
 	```
 
 2. **Download the kernel source file.**
-	Download the .tar.xz file from [] (http://kernel.org) .
+	Download the .tar.xz file from [http://kernel.org] (http://kernel.org) .
 	
 	```shell
 	# xz -d [*.tar.xz].
