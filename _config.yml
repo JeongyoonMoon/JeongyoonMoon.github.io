@@ -88,6 +88,7 @@ defaults:
       comments: true
       share: true
       related: true
+      link: true
   # _pages
   - scope:
       path: "_pages"
