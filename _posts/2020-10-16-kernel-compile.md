@@ -10,6 +10,7 @@ Tags: [Linux, Kernel]
 	# apt install build-essential libncurses5-dev bison flex libssl-dev \
 	libelf-dev bin86 kernel-package
 	```
+
 2. **Download the kernel source file.**
 	Download the .tar.xz file from http://kernel.org .
 	
@@ -18,6 +19,7 @@ Tags: [Linux, Kernel]
 	# tar xvf [*.tar]
 	```
 	* Usually install in `/usr/src/` directory (root privilege required).
+
 3. **make config**
 	``` shell
 	# cd [path-to-linux-src]
@@ -26,6 +28,7 @@ Tags: [Linux, Kernel]
 	```
 	Change the current directory to the Linux source file folder and copy configuration file of the current Linux kernel.
 	* `make menuconfig`:  Config using GUI.  (alternatives: `make config`, `make xconfig`, ...)
+
 4. **make**
 	```shell
 	# make-kpkg clean
@@ -34,13 +37,18 @@ Tags: [Linux, Kernel]
 	```
 	* `-j#` option: # of threads for compile, typically equals to # of CPU.
 	* .deb file will be created in `..` after `make-kpkg`
+
 5. **reboot**
 	```shell
 	# reboot
 	```
 	*	Check whether the kernel version changes with  `$ uname -r `.
+
 ---
 ### Reference
+
 https://harryp.tistory.com/9 (in Korean)
+
 https://manpages.ubuntu.com/manpages/precise/man1/make-kpkg.1.html
+
 http://man.he.net/man5/kernel-package
