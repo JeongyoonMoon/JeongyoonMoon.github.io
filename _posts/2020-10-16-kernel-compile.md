@@ -12,7 +12,7 @@ Tags: [Linux, Kernel]
 	```
 
 2. **Download the kernel source file.**
-	Download the .tar.xz file from [link] (http://kernel.org).
+	Download the .tar.xz file from <http://kernel.org>.
 	
 	```shell
 	# xz -d [*.tar.xz].
@@ -47,8 +47,8 @@ Tags: [Linux, Kernel]
 ---
 ### Reference
 
-[link] (https://harryp.tistory.com/9) (in Korean)
+<https://harryp.tistory.com/9> (in Korean)
 
-[link] (https://manpages.ubuntu.com/manpages/precise/man1/make-kpkg.1.html)
+<https://manpages.ubuntu.com/manpages/precise/man1/make-kpkg.1.html>
 
-[link] (http://man.he.net/man5/kernel-package)
+<http://man.he.net/man5/kernel-package>
