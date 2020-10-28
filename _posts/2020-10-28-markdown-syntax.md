@@ -6,6 +6,10 @@ Tags: [Markdown]
 
 ## Markdown Syntax
 
+### 0. Line Breaks
+
+- end a line with two or more spaces, and then type return.  
+
 ### 1. Heading
 \# : Heading level 1  
 \##: Heading level 2  
@@ -69,7 +73,8 @@ Tags: [Markdown]
 	I'm from \[South Korea\]\[label\]
 
 	\[label\]: \<link\> 
-	* Don't miss return between document and label link.
+	* Don't forget return between document and label link.
+	* Don't forget space after colon.
 	
 	I'm from [South Korea][1].
 	
